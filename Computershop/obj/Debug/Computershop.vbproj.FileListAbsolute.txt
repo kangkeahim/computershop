@@ -1,0 +1,40 @@
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\Computershop.exe.config
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\Computershop.exe
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\Computershop.pdb
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\Computershop.xml
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\MetroFramework.Design.dll
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\MetroFramework.dll
+E:\School\VB Project\Cybersoft\Computershop\Computershop\bin\Debug\MetroFramework.Fonts.dll
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.vbprojResolveAssemblyReference.cache
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmlogin.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.Resources.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.vbproj.GenerateResource.Cache
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.exe
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.xml
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.pdb
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmmain.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmcomputer.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmaddcomputer.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddcomputerspec.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmreportclone.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmclonecomputer.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewstockimport.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewclonestock.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewclonestockreport.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewclonecomputerspec.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewcomputerspec.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subviewstock.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.frmimportcomputer.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddserial.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddsupplier.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subeditcloneserial.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddclonecategory.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddcomputercategory.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddcomputertype.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subeditcomputerserial.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddspecname.resources
+E:\School\VB Project\Cybersoft\Computershop\Computershop\obj\Debug\Computershop.subaddclonespec.resources
+C:\Users\Asus-PC\Desktop\Computershop\Computershop\bin\Debug\Computershop.exe.config
+C:\Users\Asus-PC\Desktop\Computershop\Computershop\obj\Debug\Computershop.exe
+C:\Users\Asus-PC\Desktop\Computershop\Computershop\obj\Debug\Computershop.xml
+C:\Users\Asus-PC\Desktop\Computershop\Computershop\obj\Debug\Computershop.pdb

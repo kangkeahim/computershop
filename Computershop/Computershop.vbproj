@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A58DECC9-F126-47AB-8550-3CDB5913713D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Computershop.My.MyApplication</StartupObject>
+    <RootNamespace>Computershop</RootNamespace>
+    <AssemblyName>Computershop</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Computershop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Computershop.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>C:\Users\boyba\Desktop\net45\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>C:\Users\boyba\Desktop\net45\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>C:\Users\boyba\Desktop\net45\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="clonecomputer\sub\subaddclonespec.Designer.vb">
+      <DependentUpon>subaddclonespec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subaddclonespec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subeditcloneserial.designer.vb">
+      <DependentUpon>subeditcloneserial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subeditcloneserial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subaddclonecategory.Designer.vb">
+      <DependentUpon>subaddclonecategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subaddclonecategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonestock.Designer.vb">
+      <DependentUpon>subviewclonestock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonestock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonestockreport.Designer.vb">
+      <DependentUpon>subviewclonestockreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonestockreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonecomputerspec.Designer.vb">
+      <DependentUpon>subviewclonecomputerspec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\sub\subviewclonecomputerspec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subviewcomputerspec.Designer.vb">
+      <DependentUpon>subviewcomputerspec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subviewcomputerspec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subviewstockimport.Designer.vb">
+      <DependentUpon>subviewstockimport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subviewstockimport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subeditcomputerserial.Designer.vb">
+      <DependentUpon>subeditcomputerserial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subeditcomputerserial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subviewstock.Designer.vb">
+      <DependentUpon>subviewstock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subviewstock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\frmreportclone.Designer.vb">
+      <DependentUpon>frmreportclone.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\frmreportclone.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clonecomputer\frmclonecomputer.Designer.vb">
+      <DependentUpon>frmclonecomputer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clonecomputer\frmclonecomputer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="importcomputer\frmimportcomputer.Designer.vb">
+      <DependentUpon>frmimportcomputer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="importcomputer\frmimportcomputer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="importcomputer\sub\subaddserial.Designer.vb">
+      <DependentUpon>subaddserial.vb</DependentUpon>
+    </Compile>
+    <Compile Include="importcomputer\sub\subaddserial.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="importcomputer\sub\subaddsupplier.Designer.vb">
+      <DependentUpon>subaddsupplier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="importcomputer\sub\subaddsupplier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sub\subaddspecname.Designer.vb">
+      <DependentUpon>subaddspecname.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sub\subaddspecname.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputerspec.Designer.vb">
+      <DependentUpon>subaddcomputerspec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputerspec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputercategory.Designer.vb">
+      <DependentUpon>subaddcomputercategory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputercategory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputertype.Designer.vb">
+      <DependentUpon>subaddcomputertype.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\sub\subaddcomputertype.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\frmaddcomputer.Designer.vb">
+      <DependentUpon>frmaddcomputer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\frmaddcomputer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer\frmcomputer.Designer.vb">
+      <DependentUpon>frmcomputer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer\frmcomputer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.vb">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmain.Designer.vb">
+      <DependentUpon>frmmain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmmain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="clonecomputer\sub\subaddclonespec.resx">
+      <DependentUpon>subaddclonespec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\sub\subeditcloneserial.resx">
+      <DependentUpon>subeditcloneserial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\sub\subaddclonecategory.resx">
+      <DependentUpon>subaddclonecategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\sub\subviewclonestock.resx">
+      <DependentUpon>subviewclonestock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\sub\subviewclonestockreport.resx">
+      <DependentUpon>subviewclonestockreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\sub\subviewclonecomputerspec.resx">
+      <DependentUpon>subviewclonecomputerspec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subviewcomputerspec.resx">
+      <DependentUpon>subviewcomputerspec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subviewstockimport.resx">
+      <DependentUpon>subviewstockimport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subeditcomputerserial.resx">
+      <DependentUpon>subeditcomputerserial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subviewstock.resx">
+      <DependentUpon>subviewstock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\frmreportclone.resx">
+      <DependentUpon>frmreportclone.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clonecomputer\frmclonecomputer.resx">
+      <DependentUpon>frmclonecomputer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="importcomputer\frmimportcomputer.resx">
+      <DependentUpon>frmimportcomputer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="importcomputer\sub\subaddserial.resx">
+      <DependentUpon>subaddserial.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="importcomputer\sub\subaddsupplier.resx">
+      <DependentUpon>subaddsupplier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sub\subaddspecname.resx">
+      <DependentUpon>subaddspecname.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subaddcomputerspec.resx">
+      <DependentUpon>subaddcomputerspec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subaddcomputercategory.resx">
+      <DependentUpon>subaddcomputercategory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\sub\subaddcomputertype.resx">
+      <DependentUpon>subaddcomputertype.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\frmaddcomputer.resx">
+      <DependentUpon>frmaddcomputer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer\frmcomputer.resx">
+      <DependentUpon>frmcomputer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmain.resx">
+      <DependentUpon>frmmain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
